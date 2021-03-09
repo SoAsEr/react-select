@@ -20,6 +20,7 @@ import {
 } from '../utils';
 import type {
   InnerRef,
+  OptionType,
   MenuPlacement,
   MenuPosition,
   CommonProps,
@@ -350,6 +351,8 @@ export type MenuListProps = {
   children: Node,
   /** Inner ref to DOM Node */
   innerRef: InnerRef,
+  /** The focused Option */
+  focusedOption: OptionType,
   /** Props to be passed to the menu-list wrapper. */
   innerProps: {},
 };

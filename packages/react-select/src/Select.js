@@ -1723,6 +1723,7 @@ export default class Select extends Component<Props, State> {
                     this.getMenuListRef(instance);
                     scrollTargetRef(instance);
                   }}
+                  focusedOption={focusedOption}
                   isLoading={isLoading}
                   maxHeight={maxHeight}
                 >
